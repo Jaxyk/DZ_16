@@ -38,8 +38,8 @@ class Genre(db.Model):
     name = db.Column(db.String(255))
 
 with app.app_context():
-         db.drop_all()
-         db.create_all()
+    db.drop_all()
+    db.create_all()
 
 # -------------------------------------------------------
     data = {
