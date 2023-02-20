@@ -65,9 +65,9 @@ genre_schema = GenreSchema()
 
 # namespaces
 api = Api(app)
-movie_ns = api.namespaces('movies')
-director_ns = api.namespaces('directors')
-genre_ns = api.namespaces('genres')
+movie_ns = api.namespace('movies')
+director_ns = api.namespace('directors')
+genre_ns = api.namespace('genres')
 
 # Movies
 
